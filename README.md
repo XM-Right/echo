@@ -41,6 +41,7 @@ The `init()` API takes a few options
 Type: `Number|String` Default: `0`
 
 这个 `offset` 选项运允许你指定如何显示在本页下面，上面，到页面的左边，
+
 The `offset` option allows you to specify how far below, above, to the left, and to the right of the viewport you want Echo to _begin_ loading your images. If you specify `0`, Echo will load your image as soon as it is visible in the viewport, if you want to load _1000px_ below or above the viewport, use `1000`.
 
 #### offsetVertical
