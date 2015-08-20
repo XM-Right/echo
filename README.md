@@ -1,6 +1,8 @@
 # Echo.js [![Build Status](https://travis-ci.org/toddmotto/echo.svg)](https://travis-ci.org/toddmotto/echo)
-
-Echo is a standalone JavaScript lazy-loading image micro-library. Echo is fast, 2KB, and uses HTML5 data-* attributes for simple. Check out a [demo](http://toddmotto.com/labs/echo). Echo works in IE8+.
+  
+  Echo 是一个延迟加载图片独立极小的javaScript的库，
+  
+  Echo is a standalone JavaScript lazy-loading image micro-library. Echo is fast, 2KB, and uses HTML5 data-* attributes for simple. Check out a [demo](http://toddmotto.com/labs/echo). Echo works in IE8+.
 
 ```
 bower install echojs
