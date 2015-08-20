@@ -40,37 +40,49 @@ The `init()` API takes a few options
 #### offset
 Type: `Number|String` Default: `0`
 
-这个 `offset` 选项运允许你指定在视窗的上下左右多远的距离使用Echo开始加载你的图片，如果你指定 `0`，
+这个 `offset` 选项运允许你指定在视窗的上下左右多远的距离使用Echo开始加载你的图片，如果你指定 `0`，Echo 将会很快加载你的图片显示到这个视窗，如果你想加载这个视窗上下1000px内的图片，指定 `1000`。
 
 The `offset` option allows you to specify how far below, above, to the left, and to the right of the viewport you want Echo to _begin_ loading your images. If you specify `0`, Echo will load your image as soon as it is visible in the viewport, if you want to load _1000px_ below or above the viewport, use `1000`.
 
 #### offsetVertical
 Type: `Number|String` Default: `offset`'s value
 
+这个 `offsetVertical` 选项允许你指定在视窗的上面和下面多远的距离使用 Echo 加载你的图片。
+
 The `offsetVertical` option allows you to specify how far above and below the viewport you want Echo to _begin_ loading your images.
 
 #### offsetHorizontal
 Type: `Number|String` Default: `offset`'s value
+
+这个 `offsetHorizontal` 选项允许你指定在窗口的左边和右边多远的距离使用 Echo 加载你的图片。
 
 The `offsetHorizontal` option allows you to specify how far to the left and right of the viewport you want Echo to _begin_ loading your images.
 
 #### offsetTop
 Type: `Number|String` Default: `offsetVertical`'s value
 
+这个 `offsetTop` 选项允许你指定在这个视窗的上面多远的距离使用 Echo 加载你的图片。
+
 The `offsetTop` option allows you to specify how far above the viewport you want Echo to _begin_ loading your images.
 
 #### offsetBottom
 Type: `Number|String` Default: `offsetVertical`'s value
+
+这个 `offsetBottom` 选项允许你在这个视窗下面多远的距离使用 Echo 加载你的图片。
 
 The `offsetBottom` option allows you to specify how far below the viewport you want Echo to _begin_ loading your images.
 
 #### offsetLeft
 Type: `Number|String` Default: `offsetVertical`'s value
 
+这个 `offsetLeft` 选项允许你在这个视窗左边多远的距离使用 Echo 加载你的图片。
+
 The `offsetLeft` option allows you to specify how far to left of the viewport you want Echo to _begin_ loading your images.
 
 #### offsetRight
 Type: `Number|String` Default: `offsetVertical`'s value
+
+这个 `offsetLeft` 选项允许你在这个视窗右边多远的距离使用 Echo 加载你的图片。
 
 The `offsetRight` option allows you to specify how far to the right of the viewport you want Echo to _begin_ loading your images.
 
