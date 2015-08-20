@@ -8,6 +8,7 @@ Echo is a standalone JavaScript lazy-loading image micro-library. Echo is fast, 
 bower install echojs
 ```
 使用Echo.js很简单，想要立即添加图片到网页中只需要简单的在 img 标签上添加 'data-echo' 属性，或者如果你使用Echo 延迟加载在一个元素的背景图片上 只需要为这个元素的 'data-echo-background' 属性加入图片的URL。
+
 Using Echo.js is simple, to add an image directly into the page simply add a `data-echo` attribute to the img tag. Alternatively if you want to use Echo to lazy load background images simply add a `data-echo-background' attribute to the element with the image URL.
 
 ```html
