@@ -7,6 +7,7 @@
 ```
 bower install echojs
 ```
+使用Echo.js很简单，
 
 Using Echo.js is simple, to add an image directly into the page simply add a `data-echo` attribute to the img tag. Alternatively if you want to use Echo to lazy load background images simply add a `data-echo-background' attribute to the element with the image URL.
 
