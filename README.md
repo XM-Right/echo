@@ -103,6 +103,8 @@ By default the throttling function is actually a [debounce](http://underscorejs.
 #### unload
 Type: `Boolean` Default: `false`
 
+这个选项将告诉 Echo 一旦滚动超出视口卸载图片加载。
+
 This option will tell echo to unload loaded images once they have scrolled beyond the viewport (including the offset area).
 
 #### callback
