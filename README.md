@@ -96,6 +96,8 @@ The throttle is managed by an internal function that prevents performance issues
 #### debounce
 Type: `Boolean` Default: `true`
 
+默认情况下， `throttle` 实际上是一个抵消功能，所以检验功能只有是在用户停止滚动的时候才触发的。要使用传统的 `throttle` 检验每一毫秒， 设置 `debounce` 为 `false`。
+
 By default the throttling function is actually a [debounce](http://underscorejs.org/#debounce) function so that the checking function is only triggered after a user stops scrolling. To use traditional throttling where it will only check the images every `throttle` milliseconds, set `debounce` to `false`.
 
 #### unload
