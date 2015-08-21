@@ -89,6 +89,8 @@ The `offsetRight` option allows you to specify how far to the right of the viewp
 #### throttle
 Type: `Number|String` Default: `250`
 
+这个 `throttle` 是由某个内部函数用来阻止 `window.onScroll` 连续触发的问题，使用这个 `throttle` 在用户滚动页面的时候将会设置一个超时时间直到用户停止滚动为止。这个默认值是 `250` 毫秒。
+
 The throttle is managed by an internal function that prevents performance issues from continuous firing of `window.onscroll` events. Using a throttle will set a small timeout when the user scrolls and will keep throttling until the user stops. The default is `250` milliseconds.
 
 #### debounce
