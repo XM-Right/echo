@@ -110,6 +110,8 @@ This option will tell echo to unload loaded images once they have scrolled beyon
 #### callback
 Type: `Function`
 
+这个回调通过已更新的元素和更新操作（ 即 `load` 或者 `unload` ）。如果你想添加类加载到元素的话，这可能是有用的。或者做一些记录。
+
 The callback will be passed the element that has been updated and what the update operation was (ie `load` or `unload`). This can be useful if you want to add a class like `loaded` to the element. Or do some logging.
 
 ```js
