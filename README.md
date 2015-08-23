@@ -1,6 +1,6 @@
 # Echo.js [![Build Status](https://travis-ci.org/toddmotto/echo.svg)](https://travis-ci.org/toddmotto/echo)
   
-  Echo 是一个延迟加载图片独立极小的javaScript库，大小只有2kb，并且使用 HTML5 的data-*属性使其简单，查看实例[demo](http://toddmotto.com/labs/echo)。 Echo只能工作在 IE8+。
+  Echo 是一个独立极小的延迟加载图片javaScript库，大小只有2kb，并且使用简单的 HTML5 的data-*属性，查看实例[demo](http://toddmotto.com/labs/echo)。 Echo只能工作在 IE8+。
 
 Echo is a standalone JavaScript lazy-loading image micro-library. Echo is fast, 2KB, and uses HTML5 data-* attributes for simple. Check out a [demo](http://toddmotto.com/labs/echo). Echo works in IE8+.
 
@@ -89,7 +89,7 @@ The `offsetRight` option allows you to specify how far to the right of the viewp
 #### throttle
 Type: `Number|String` Default: `250`
 
-这个 `throttle` 是由某个内部函数用来阻止 `window.onScroll` 连续触发的问题，使用这个 `throttle` 在用户滚动页面的时候将会设置一个超时时间直到用户停止滚动为止。这个默认值是 `250` 毫秒。
+这个 `throttle` 是由某个内部函数用来阻止 `window.onScroll` 连续触发的问题，使用这个 `throttle` 在用户滚动页面的时候将会设置一个小的超时时间直到用户停止滚动为止。这个默认值是 `250` 毫秒。
 
 The throttle is managed by an internal function that prevents performance issues from continuous firing of `window.onscroll` events. Using a throttle will set a small timeout when the user scrolls and will keep throttling until the user stops. The default is `250` milliseconds.
 
@@ -128,7 +128,7 @@ echo.init({
 
 ## .render()
 
-Echo's callback `render()` can be used to make Echo poll your images when you're not scrolling, for instance if you've got a filter layout that swaps images but does not scroll, you need to call the internal functions without scrolling. Use `render()` for this:
+  Echo's callback `render()` can be used to make Echo poll your images when you're not scrolling, for instance if you've got a filter layout that swaps images but does not scroll, you need to call the internal functions without scrolling. Use `render()` for this:
 
 ```js
 echo.render();
